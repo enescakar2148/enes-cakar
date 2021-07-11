@@ -1,0 +1,99 @@
+@import url("../colors.css");
+
+/* navbar */
+.navbar {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--white);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* page title */
+#title {
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+/* hover title */
+#title:hover {
+  transition: 0.2s;
+  color: var(--twitter-blue);
+}
+
+/* navbar items */
+#nav-list {
+  list-style-type: none;
+  display: flex;
+}
+.nav-list-item {
+  margin: 0 0.5rem;
+}
+
+/* home */
+.home {
+  margin-top: 120px;
+  height: 100vh;
+  padding: 2rem 3rem;
+}
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-2 {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.welcome-text {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #b92b27 0%, #1565c0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+#note {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem 0.5rem;
+}
+/* my image config */
+#my-photo {
+  width: 350px;
+  border-radius: 25px;
+
+  /* image rotate */
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  margin-right: 2rem;
+
+  /* elevation effect */
+  box-shadow: 2px 2px rgba(255, 255, 255, 0.04),
+    2px 2px rgba(255, 255, 255, 0.04);
+  opacity: 85%;
+}
+
+/* next section button */
+#next-section-button {
+  font-size: 2rem;
+  color: var(--twitter-blue);
+  border-radius: 0%;
+  border: 1px solid transparent;
+  padding: 0.7rem 1rem;
+  transition: 0.2s;
+}
+#next-section-button:hover {
+  color: var(white);
+  border: 1px solid var(--twitter-blue);
+  border-radius: 50%;
+  color: var(--white);
+  transition: 0.2s;
+}
