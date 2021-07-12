@@ -2,7 +2,8 @@
 
 /* navbar */
 .navbar {
-  padding: 2rem 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,19 +12,14 @@
   position: fixed;
   width: 100%;
   top: 0;
+  height: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-/* page title */
-#title {
-  letter-spacing: 1px;
-  font-size: 1.5rem;
-  transition: 0.2s;
-  cursor: pointer;
-}
-/* hover title */
-#title:hover {
-  transition: 0.2s;
-  color: var(--twitter-blue);
+/* page logo */
+#logo {
+  width: 200px;
 }
 
 /* navbar items */
@@ -46,7 +42,7 @@
   justify-content: space-between;
 }
 .section-2 {
-  height: 75px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -66,8 +62,8 @@
   padding: 1rem 0.5rem;
 }
 /* my image config */
-#my-photo {
-  width: 350px;
+#code-photo {
+  width: 450px;
   border-radius: 25px;
 
   /* image rotate */
@@ -87,13 +83,41 @@
   color: var(--twitter-blue);
   border-radius: 0%;
   border: 1px solid transparent;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem .9rem;
   transition: 0.2s;
 }
 #next-section-button:hover {
   color: var(white);
   border: 1px solid var(--twitter-blue);
-  border-radius: 50%;
+  border-radius: 10px;
   color: var(--white);
   transition: 0.2s;
+}
+
+/* about */
+.about-us{
+  height: 100vh;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* My Photo */
+#my-photo {
+  width: 450px;
+  border-radius: 25px;
+  margin-left: 5rem;
+
+  /* elevation effect */
+  box-shadow: 2px 2px rgba(255, 255, 255, 0.04),
+    2px 2px rgba(255, 255, 255, 0.04);
+  opacity: 85%;
+}
+
+.about-us-section-2{
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  margin-left: 3.5rem;
+  margin-top: 3rem;
 }
