@@ -97,9 +97,9 @@
 /* about */
 .about-us{
   height: 100vh;
-  margin-top: 120px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* My Photo */
@@ -115,9 +115,8 @@
 }
 
 .about-us-section-2{
-  height: 100%;
   width: 100%;
   text-align: left;
   margin-left: 3.5rem;
-  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
